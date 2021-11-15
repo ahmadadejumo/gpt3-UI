@@ -1,16 +1,8 @@
 import "./App.css";
 import React from "react";
-// import {
-//   Footer,
-//   Blog,
-//   Possibility,
-//   Features,
-//   WhatGPT3,
-//   Header,
-// } from "./Containers";
-
-// import { Cta, Brand, Navbar } from "./Component";
-
+import Cta from "./Component/cta/Cta";
+import Brand from "./Component/brand/Brand";
+import Navbar from "./Component/navbar/Navbar";
 import Footer from "./Containers/footer/Footer";
 import Blog from "./Containers/blog/Blog";
 import Possibility from "./Containers/possibility/Possibility";
@@ -21,7 +13,7 @@ import Header from "./Containers/header/Header";
 function App() {
   return (
     <div className="App">
-      {/* <div className="gradient__bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
@@ -31,7 +23,7 @@ function App() {
       <Possibility />
       <Cta />
       <Blog />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
