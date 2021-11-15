@@ -1,6 +1,7 @@
 import React from "react";
 import people from "../../assets/people.png";
 import ai from "../../assets/ai.png";
+import "./Header.css";
 
 const Header = () => {
   return (
